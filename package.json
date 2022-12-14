@@ -1,0 +1,19 @@
+{
+  "name": "naturos",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch sass/main.scss:css/style.css",
+    "concat:css": "concat -o css/style.concat.css css/style.css css/icon-font.css",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Shashank",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "sass": "^1.37.5"
+  },
+  "dependencies": {}
+}
